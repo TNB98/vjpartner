@@ -1,0 +1,99 @@
+.box-border {
+    border: 1px solid #d9d9d9 ;
+    border-radius: 10px;
+}
+
+.img-blogs {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Container của thanh tìm kiếm */
+.search-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    /* Chiều rộng của thanh tìm kiếm */
+}
+
+/* Input của thanh tìm kiếm */
+.search-container input {
+    width: 90%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 50px;
+    /* Bo góc tròn */
+    background-color: #d9d9d9;
+    /* Màu nền xám */
+    font-size: 16px;
+    outline: none;
+    box-shadow: none;
+    /* Loại bỏ shadow */
+}
+
+/* Nút tìm kiếm */
+.search-container .search-button {
+    position: absolute;
+    right: 10%;
+    /* Đẩy nút sang phải đè lên input */
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #0d0e32;
+    /* Màu nền của nút */
+    color: #fff;
+    /* Màu icon */
+    border: none;
+    border-radius: 50%;
+    /* Tạo hình tròn */
+    width: 60px;
+    /* Độ lớn của nút tròn */
+    height: 60px;
+    /* Độ lớn của nút tròn */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    /* Kích thước icon */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Đổ bóng nhẹ */
+}
+
+/* Hiệu ứng hover */
+.search-container .search-button:hover {
+    background-color: #0a0b28;
+}
+
+.box-search {
+    display: flex;
+    margin: 0!important;
+}
+
+.box-search p {
+    display: inline;
+    font-weight: bold;
+    border-bottom: 4px solid #b19b61;
+    padding:20px 0;
+    margin: 0;
+}
+
+.boxboder-bottom {
+    border: 1px solid #d9d9d9;
+    margin-bottom: 15px;
+}
+
+.box-expertise {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box-list ul {
+    padding: 0;
+}
+
+.box-list ul li{
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-bottom: 1px solid #d9d9d9;
+}

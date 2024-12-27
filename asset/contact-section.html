@@ -1,0 +1,116 @@
+<style>
+    .contact-box {
+        border: 1px solid #d9d9d9;
+        border-radius: 20px;
+    }
+
+    .contact-box i {
+        font-size: 24px;
+        color: #007bff;
+        padding: 10px;
+
+    }
+
+    .box-icon {
+        background-color: #007bff;
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+        align-items: center;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        /* Căn giữa và tạo khoảng cách */
+    }
+
+    .box-icon i {
+        font-size: 24px;
+        color: #f5f5f5;
+        padding: 10px;
+    }
+
+    .form-contact {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+</style>
+
+<div class="container lienhe" style="margin-top: 50px;display: flex;">
+    <div class="col-6" style="display: flex;align-items: center">
+        <div class="row" style="display: flex;">
+            <div class="row">
+                <div class="col-11 text-center" style="display: flex;justify-content:flex-start;align-items: flex-end;">
+                    <img style="height: 35px;margin-bottom: 16px;margin-right: 5px;" src="/image/icon/icon1.png"
+                        alt="?">
+                    <p style="font-size: 18px;">Đặt câu hỏi, ý kiến hoặc yêu cầu</p>
+                </div>
+                <h2 style="text-align: start;">Liên hệ nếu có <span class="highlight">thắc mắc</span></h2>
+                <p class="col-11" style="text-align: start;">Hãy gửi cho chúng tôi những câu hỏi, ý kiến
+                    hoặc
+                    yêu cầu của bạn
+                    và chúng tôi sẽ phản
+                    hồi trong thời gian sớm nhất.</p>
+            </div>
+
+            <div class="col-11" style="display: flex; justify-content: space-between;">
+                <!-- Phần liên hệ qua điện thoại -->
+                <div class=" col-5 contact-box text-center "
+                    style="display: flex;align-items: center;justify-content:start">
+                    <div class="box-icon "><i class="fas fa-phone-alt"></i></div>
+                    <div>
+                        <p style="margin: 0;text-align: start;color: #545454;"> Liên hệ ngay:</p>
+                        <p style="margin: 0;"><strong>0313-728-397</strong></p>
+                    </div>
+                </div>
+                <!-- Phần liên hệ qua email -->
+                <div class="col-5 contact-box text-center"
+                    style="display: flex;align-items: center;justify-content:  start">
+                    <div class="box-icon ">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div>
+                        <p style="margin: 0;text-align: start;color: #545454;"> Email:</p>
+                        <p style="margin: 0;word-break: break-all;text-align: start;">
+                            <strong>vjpartner19@gmail.com</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="row" style="display: flex;justify-content: flex-end;">
+            <div class="col-10">
+                <p><strong>Cùng Kinh Doanh Với V&J Partner</strong></p>
+            </div>
+            <div class="col-10">
+                <p>Phân phối các sản phẩm làm đẹp và chăm sóc da do Hàn Quốc sản xuất đến với Việt Nam.
+                </p>
+            </div>
+        </div>
+        <div class="col-12">
+            <form id="dataForm"  class="row"  style="display: flex;justify-content: flex-end;">
+                <div class="col-5 form-contact">
+                    <input class="form-control" type="text" id="name"  placeholder="Họ và tên *" required>
+                </div>
+                <div class="col-5 form-contact">
+                    <input class="form-control" type="email" id="email" placeholder="Email *" required>
+                </div>
+                <div class="col-5 form-contact">
+                    <input class="form-control" type="text" id="phone" placeholder="Số Điện Thoại *" required>
+                </div>
+                <div class="col-5 form-contact">
+                    <input class="form-control" type="text" id="titler" placeholder="Tiêu Đề *" required>
+                </div>
+                <div class="col-10 form-contact">
+                    <input class="form-control" type="text" id="content" placeholder="Nội Dung *" style="height: 20vh;" required> 
+                </div>
+                <div class="d-grid col-10">
+                    <button id="button_submit" class="btn btn-primary" type="submit">Gửi Liên Hệ</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="/js/contactAppScript.js"></script>

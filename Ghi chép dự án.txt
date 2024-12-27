@@ -1,0 +1,20 @@
+Xây dựng trang mở đầu 
+ - index
+ - Xây đựng nav và footer
+
+ID triển khai
+AKfycbxeW-MQMwuRrsOEj7gwc1t-5TPnHrSag3ZQP4nvS2Dzk2fhgPhTkVIUcUF4-DCBB6gJ
+Ứng dụng web
+URL
+https://script.google.com/macros/s/AKfycbxeW-MQMwuRrsOEj7gwc1t-5TPnHrSag3ZQP4nvS2Dzk2fhgPhTkVIUcUF4-DCBB6gJ/exec
+
+
+<!-- Vertically centered modal -->
+<div class="modal-dialog modal-dialog-centered">
+  ...
+</div>
+
+<!-- Vertically centered scrollable modal -->
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+  ...
+</div>

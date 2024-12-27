@@ -1,0 +1,124 @@
+.image-container {
+    position: relative;
+    /* Cần thiết để chồng các phần tử con lên */
+    width: 100%;
+    /* Đảm bảo phần tử chiếm hết chiều rộng */
+    height: 400px;
+    /* Chiều cao của phần tử (hoặc bạn có thể để tự động theo kích thước ảnh) */
+    padding: 0;
+}
+
+.image-container img {
+    width: 100%;
+    /* Đảm bảo hình ảnh chiếm hết chiều rộng phần tử */
+    height: 100%;
+    /* Chiều cao của ảnh bằng với phần tử */
+    object-fit: cover;
+    /* Đảm bảo ảnh phủ toàn bộ phần tử mà không bị méo */
+}
+
+.text-overlay {
+    position: absolute;
+    /* Đặt chữ chồng lên hình ảnh */
+    top: 50%;
+    /* Căn giữa theo chiều dọc */
+    left: 18%;
+    /* Căn giữa theo chiều ngang */
+    transform: translate(-50%, -50%);
+    /* Đảm bảo căn giữa chính xác */
+    color: white;
+    /* Màu chữ */
+    text-align: center;
+    /* Căn giữa chữ */
+    z-index: 2;
+    /* Đảm bảo chữ hiển thị trên ảnh */
+}
+
+.text-overlay h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.text-overlay p {
+    font-size: 18px;
+}
+
+/*general-introduction"*/
+.general-introduction .general-introduction__logo-box {
+    display: flex;
+    justify-content: center;
+}
+
+.general-introduction .general-introduction__detail {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+.general-introduction .box1 {
+    border-left: 10px solid #00906d;
+}
+
+.general-introduction .box2 {
+    border-left: 10px solid #004d8f;
+}
+
+.general-introduction .general-introduction__box-detail h2,
+p {
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.timeline .timline_boxicon {
+    display: flex;
+    position: relative;
+    border-left: 4px solid black;
+    padding: 30px 10px;
+}
+
+.timeline .timline_boxicon i {
+    display: block;
+    position: relative;
+    top: -32px;
+    left: -20px;
+}
+
+.timeline .end {
+    display: flex;
+    position: relative;
+    border: none;
+    padding: 30px 12px;
+}
+
+.timeline .end i {
+    display: block;
+    position: relative;
+    top: -32px;
+    left: -18px;
+}
+
+.timeline {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.timeline_titler {
+    margin: 40px;
+}
+
+.partners-section {
+    margin-top: 160px;
+}
+
+.partners-icon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+
+}
+
+.partners-icon img {
+    max-width: 100%;
+    height: auto;
+}

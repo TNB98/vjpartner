@@ -1,0 +1,75 @@
+.products {
+    margin: 70px;
+}
+
+.products-list {
+    border: 1px solid #ececec;
+    border-radius: 20px;
+}
+
+
+
+.products-list li {
+    list-style: none;
+    padding:15px 0 ;
+    border-bottom: 1px solid #ececec;
+}
+
+.products-list p {
+    display: inline;
+    font-weight: bold;
+    border-bottom: 5px solid #b19b61;
+    padding:20px 0;
+}
+
+.products-serach {
+    border: 1px solid #ececec;
+    border-radius: 10px;
+}
+.product-box {
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.card-img-top {
+    width: 100% !important;
+    /* Chiều rộng ảnh */
+    height: 30vh !important;
+    /* Chiều cao ảnh */
+    object-fit: cover;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    /* Bóng đổ */
+}
+
+.card-title {
+    display: -webkit-box;
+    /* Kích hoạt chế độ flexbox trong WebKit */
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    /* Số dòng tối đa là 2 */
+    -webkit-box-orient: vertical;
+    /* Hướng của khung */
+    overflow: hidden;
+    /* Ẩn phần nội dung thừa */
+    text-overflow: ellipsis;
+    /* Thêm dấu "..." ở cuối nếu bị cắt */
+}
+
+
+.dv-title {
+    display: -webkit-box;
+    /* Kích hoạt chế độ flexbox trong WebKit */
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    /* Số dòng tối đa là 2 */
+    -webkit-box-orient: vertical;
+    /* Hướng của khung */
+    overflow: hidden;
+    /* Ẩn phần nội dung thừa */
+    text-overflow: ellipsis;
+    /* Thêm dấu "..." ở cuối nếu bị cắt */
+}
+
+.stars i {
+    color: gold;
+}

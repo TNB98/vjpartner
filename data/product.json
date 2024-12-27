@@ -1,0 +1,52 @@
+{
+    "list": [
+       {
+          "idtype": null,
+          "urlImg" : "/image/img_products/img_ch6.jpg",
+          "nameProducts":"Kem chống nắng Cell Happy Co, nâng tông trắng hồng, dành cho mọi loại da, SPF50+ PA++++ (50g) | Hàn Quốc Chính Hãng",
+          "type": "Kem Chống Năng",
+          "price":"820,000 đ",
+          "quantity": "58"
+       },
+       {
+          "idtype": "1",
+          "urlImg" : "/image/img_products/img_gl9.jpg",
+          "nameProducts":"Sữa Tắm Trắng Da Body Glutanex Cao Cấp, Sữa Tắm Kích Trắng nâng tone tự nhiên",
+          "type": "Sữa Tắm",
+          "price":"1,820,000 đ",
+          "quantity": "70"
+       },
+       {
+          "idtype": "2",
+          "urlImg" : "/image/img_products/img_mh1.jpg",
+          "nameProducts":"Cặp đôi dưỡng da đỉnh cao Bdot Nhật Bản, Giảm thâm mụn giúp da căng bóng ",
+          "type": "Dưỡng Da",
+          "price":"2,820,000 đ",
+          "quantity": "50"
+       },
+       {
+          "idtype": "3",
+          "urlImg" : "/image/img_products/img_sl4.jpg",
+          "nameProducts":"Toner căng bóng da nước dưỡng da Selecpia VC lotion 100ml",
+          "type": "Dưỡng Da",
+          "price":"3,820,000 đ",
+          "quantity": "42"
+       },
+       {
+          "idtype": "4",
+          "urlImg" : "/image/img_products/img_sl9.jpg",
+          "nameProducts":"Tinh chất có tác dụng làm trắng da và chống oxy hóa cao nhờ fullerene.",
+          "type": "Bọt Rửa Mặt",
+          "price":"620,000 đ",
+          "quantity": "120"
+       },
+       {
+          "idtype": "4",
+          "urlImg" : "/image/img_products/img_sl9.jpg",
+          "nameProducts":"Tinh chất có tác dụng làm trắng da và chống oxy hóa cao nhờ fullerene.",
+          "type": "Bọt Rửa Mặt",
+          "price":"620,000 đ",
+          "quantity": "120"
+       }
+    ]
+ }

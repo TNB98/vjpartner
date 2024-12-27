@@ -1,0 +1,142 @@
+<style>
+    body {
+        font-family: Helvetica, Arial, sans-serif;
+    }
+
+    .nav1 {
+        height: 120px;
+        background-color: #050a30;
+        color: #fff;
+        --bs-gutter-x: 0rem !important;
+    }
+
+    .nav-link {
+        color: white !important;
+        border-radius: 10px;
+        transition: background-color 0.3s ease;
+    }
+
+    .nav-link:hover {
+        background-color: white !important;
+        color: #000 !important;
+        border-radius: 10px;        
+    }
+
+    .icon-bar a {
+        color: #fff;
+        /* Icon màu trắng */
+        margin: 0 10px;
+        font-size: 1.2rem;
+        transition: color 0.3s ease;
+    }
+
+    .icon-bar a:hover {
+        color: #f0a500;
+        /* Đổi màu khi hover */
+    }
+
+    .navbar-brand img {
+        height: 80px;
+        width: auto;
+    }
+
+    .nav-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-space-around {
+        display: flex;
+        align-content: space-around !important;
+        justify-content: center space-between;
+    }
+
+    .navbar-center {
+        display: flex;
+        align-content: center
+    }
+
+    .nav-linkHome {
+        font-size: 18px;
+        /* Tăng kích thước chữ */
+        font-weight: bold;
+        /* Màu xanh lá nổi bật */
+        text-decoration: none;
+        /* Xóa gạch dưới */
+        text-shadow: 2px 2px 5px rgba(198, 41, 41, 0.2);
+        /* Thêm bóng chữ */
+        text-align: center;
+        margin: 0 !important;
+    }
+</style>
+
+<div class="row nav1">
+    <div class="col-1 nav-logo">
+        <a href="#" class="navbar-brand">
+            <img src="/image/icon/favicon.ico" alt="Trang Chủ" srcset="">
+        </a>
+    </div>
+
+
+    <div class="col-8 navbar-center  d-flex justify-content-center">
+        <div class="row navbar-center">
+            <div class="row">
+
+                <form class="d-flex search-bar mx-auto" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Tìm kiếm sản phẩm" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+
+            <div class="row " style="margin-top: 5px;">
+
+                <div class="nav col-3 d-flex justify-content-start">
+                    <a class=" nav-link" href="/index.html">
+                        <p class="nav-linkHome">Trang Chủ</p>
+                    </a>
+                </div>
+
+                <div class="nav col-9 navbar-center justify-content-end">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about-us.html">Giới Thiệu Công Ty</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/products.html">Sản Phẩm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact.html">Liên Hệ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div class="">
+    </div>
+
+
+    <div class="col-2 navbar-center  d-flex justify-content-center">
+        <div class="row" style="display: flex;align-content: center;padding: 0;margin: 0;" >
+            <div class="col-8 icon-bar" style="display: flex; justify-content: flex-start">
+                <a href="#" title="Thông báo"><i class="fas fa-bell"></i></a>
+                <a href="#" title="Yêu thích"><i class="fas fa-heart"></i></a>
+                <a href="#" title="Đăng nhập"><i class="fas fa-user"></i></a>
+                <a href="#" title="Giỏ hàng"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+            <div class="col-11 navbar-space-around">
+                <ul class="nav" style="justify-content: flex-start">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Đăng Nhập</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Đăng Ký</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>

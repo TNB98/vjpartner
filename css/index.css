@@ -1,0 +1,96 @@
+.cty1 {
+    width: 450px;
+    height: 680px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    /* Bóng đổ */
+    border-radius: 8px;
+    /* Tùy chọn: Bo tròn góc hình ảnh */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Hiệu ứng khi hover */
+}
+
+
+/* Hiệu ứng hover: Thay đổi bóng và phóng to */
+.cty1:hover {
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.5);
+    /* Tăng độ đậm của bóng */
+    transform: scale(1.05);
+    /* Phóng to hình ảnh một chút */
+}
+
+#icon2 {
+    width: auto;
+    height: 150px;
+    margin: 20px;
+}
+
+#title-icon {
+    display: flex;
+    align-items: center;
+}
+
+.rectangle {
+    width: 10px;
+    height: 80%;
+    background-color: #684df4;
+    margin-right: 20px;
+}
+
+.card-img-top {
+    width: 100% !important;
+    /* Chiều rộng ảnh */
+    height: 30vh !important;
+    /* Chiều cao ảnh */
+    object-fit: cover;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    /* Bóng đổ */
+}
+
+.card-title {
+    display: -webkit-box;
+    /* Kích hoạt chế độ flexbox trong WebKit */
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    /* Số dòng tối đa là 2 */
+    -webkit-box-orient: vertical;
+    /* Hướng của khung */
+    overflow: hidden;
+    /* Ẩn phần nội dung thừa */
+    text-overflow: ellipsis;
+    /* Thêm dấu "..." ở cuối nếu bị cắt */
+}
+
+
+.dv-title {
+    display: -webkit-box;
+    /* Kích hoạt chế độ flexbox trong WebKit */
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    /* Số dòng tối đa là 2 */
+    -webkit-box-orient: vertical;
+    /* Hướng của khung */
+    overflow: hidden;
+    /* Ẩn phần nội dung thừa */
+    text-overflow: ellipsis;
+    /* Thêm dấu "..." ở cuối nếu bị cắt */
+}
+
+.stars i {
+    color: gold;
+}
+
+.card {
+    margin: 20px;
+}
+
+.cty2 {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.box-news{
+    background-color: #d9d9d9;
+}
